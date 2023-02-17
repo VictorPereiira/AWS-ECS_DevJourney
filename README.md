@@ -22,10 +22,18 @@
 
 
 ## About
-🧭 AWS-ECS_DevJourney
+🧭 AWS-ECS_DevJourney from [StudyVerse](https://github.com/VictorPereiira/StudyVerse)
 
 
 ## Project Targets
+
+### To do
+
+- [ ]  Get the information about ECS sctructure (  ECS → Cluster → Service → Tasks → Containers  )
+- [ ]  Get the information about ECS Prices.
+- [ ]  To learning how to work with ECS AWS Console
+- [ ]  To learning how to work with ECS CLI
+- [ ]  To learning how to work with ECS Terraform
 
 ### AWS ECS Study
 
@@ -37,10 +45,28 @@
 
 ## Content
 
+### Box
+
+- Read
+   - [What is ECS?](https://docs.aws.amazon.com/pt_br/AmazonECS/latest/developerguide/Welcome.html)
+- Youtube Videos
+   - [AWS ECS Overview](https://www.youtube.com/watch?v=3e0Ftz4ipD4)
+- Courses
+   - [ECS Workshop](https://ecsworkshop.com/introduction/)
+   - [Alura ECS](https://www.alura.com.br/conteudo/amazon-ecs-docker-nuvem-aws)
+
+### Requirements
+- AWS ( IAM | EC2 | VPC | ALB )
+- Docker
+
 ### What its?
 
 1. In the Docker File
     1. What is the difference between `EC2` and `Farget` ECS Instances ?
+
+- Instance EC2 and Fargate
+   - EC2 total controle sobre o subsistema que vai abrigar os clusters
+   - Fargates → Uso mais eficiênte da instancia, calculado de acordo com o uso do container
     
 ### How to do
 
